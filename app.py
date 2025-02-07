@@ -26,6 +26,54 @@ words = sentence.split()
 count = len(words)
 print(count) """
 
-#Mad Lips Project
+#Mad Libs Project
 
-verb1 = 
+""" a = input("enter a celebrity:")
+b = input("enter a verb1:")
+c = input("enter a verb2:")
+d = input("enter a noun:")
+e = input("enter a number:")
+
+Mad_lib = print(f"{a} went to {d} by {b} there, but {a} couldn't get {d} so they started {c}. It took them {e} minutes to get there...")
+print(Mad_lib) """
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 70
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+#Challenge 2
+
+number = input("enter a number")
+x = number.split()
+
+#notes
+""" def login(password):
+    #if statement evaluates to true do next line
+    if password == "secret":
+        print("logged in")
+    else:
+        print("incorrect password")
+login("secrets") """
+
+def temp(x):
+    if x >=80:
+        print("too hot")
+    elif 80> x >60:
+        print("nice")
+    else:
+        print("Too Cold")
+x = int(input("what da temp?"))
+temp(x)
