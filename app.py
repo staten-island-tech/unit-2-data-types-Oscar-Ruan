@@ -56,8 +56,14 @@ else:
 
 #Challenge 2
 
-number = input("enter a number")
-x = number.split()
+""" import math
+x = int(input("enter a number: "))
+y = math.gcd(x,2)
+
+if y ==2:
+    print("even")
+else:
+    print("odd") """
 
 #notes
 """ def login(password):
@@ -68,7 +74,7 @@ x = number.split()
         print("incorrect password")
 login("secrets") """
 
-def temp(x):
+""" def temp(x):
     if x >=80:
         print("too hot")
     elif 80> x >60:
@@ -76,4 +82,26 @@ def temp(x):
     else:
         print("Too Cold")
 x = int(input("what da temp?"))
-temp(x)
+temp(x) """
+
+#use modeulo to check remainder for 1 factor
+#use a loop to check all potential factors range(2,15)
+#conditional statement if factor append to list
+#print the list
+
+#Challenge 3 
+
+a = float(input("enter a bill: "))
+b = int(input("Select a tip of 0%,15%,20%,or25%: "))
+
+def tip(b):
+    if b ==0:
+        print("Bad service")
+    elif b ==15:
+        print("Okay service")
+    elif b ==20:
+        print("Good service")
+    elif b ==25:
+        print("Great service")
+    else:
+        print("Not an option")
