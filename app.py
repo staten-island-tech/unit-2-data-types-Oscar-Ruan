@@ -91,17 +91,39 @@ temp(x) """
 
 #Challenge 3 
 
-a = float(input("enter a bill: "))
-b = int(input("Select a tip of 0%,15%,20%,or25%: "))
+""" import math
+a = int(input("enter a bill: "))
+b = input("Was the service: bad, okay, good, or great? ")
 
-def tip(b):
-    if b ==0:
-        print("Bad service")
-    elif b ==15:
-        print("Okay service")
-    elif b ==20:
-        print("Good service")
-    elif b ==25:
-        print("Great service")
-    else:
-        print("Not an option")
+if b =="bad":
+        print(a)
+elif b =="okay":
+        print(a*1.15)
+elif b =="good":
+        print(a*1.2)
+elif b =="great":
+        print(a*1.25)
+else:
+        print("Not an option") """
+
+#Challenge 4
+
+import math
+x = int(input("enter a number: "))
+
+for factors in range(2,x+1):
+    if x % factors ==0:
+        print(factors)
+
+#Gambling code
+
+""" isRich = True
+is21 = True
+
+def canGamble(isRich, is21):
+    if isRich == True and is21 ==True:
+        print("Let it ride!")
+    elif isRich == False and is21 == True:
+        print("You are too poor, get out")
+    elif isRich == False or is21 == False:
+        print("you cannot play") """
