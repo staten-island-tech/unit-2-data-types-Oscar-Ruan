@@ -91,7 +91,7 @@ temp(x) """
 
 #Challenge 3 
 
-""" import math
+"""
 a = int(input("enter a bill: "))
 b = input("Was the service: bad, okay, good, or great? ")
 
@@ -108,12 +108,11 @@ else:
 
 #Challenge 4
 
-import math
-x = int(input("enter a number: "))
+""" x = int(input("enter a number: "))
 
 for factors in range(2,x+1):
     if x % factors ==0:
-        print(factors)
+        print(factors) """
 
 #Gambling code
 
@@ -127,3 +126,13 @@ def canGamble(isRich, is21):
         print("You are too poor, get out")
     elif isRich == False or is21 == False:
         print("you cannot play") """
+
+#Challenge 5
+
+x = int(input("enter a number: "))
+y = int(input("enter another number: "))
+z = 1
+for factors in range(1, min(x, y)+1):
+    if x % factors ==0 and y % factors ==0:
+        z = factors
+print(z)
