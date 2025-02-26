@@ -6,7 +6,6 @@ print(x,y) """
 print(values)
 for i in values:
     print(i)
-
 print(values[0])
 print(values[6]) """
 
@@ -21,10 +20,10 @@ print(z) """
 
 #Challenge
 
-""" sentence = input("enter a sentence:")
+sentence = input("enter a sentence:")
 words = sentence.split()
 count = len(words)
-print(count) """
+print(count)
 
 #Mad Libs Project
 
@@ -129,10 +128,10 @@ def canGamble(isRich, is21):
 
 #Challenge 5
 
-x = int(input("enter a number: "))
+""" x = int(input("enter a number: "))
 y = int(input("enter another number: "))
 z = 1
 for factors in range(1, min(x, y)+1):
     if x % factors ==0 and y % factors ==0:
         z = factors
-print(z)
+print(z) """
