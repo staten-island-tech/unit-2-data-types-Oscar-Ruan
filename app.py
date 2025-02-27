@@ -20,10 +20,10 @@ print(z) """
 
 #Challenge
 
-sentence = input("enter a sentence:")
+""" sentence = input("enter a sentence:")
 words = sentence.split()
 count = len(words)
-print(count)
+print(count) """
 
 #Mad Libs Project
 
@@ -55,14 +55,13 @@ else:
 
 #Challenge 2
 
-""" import math
 x = int(input("enter a number: "))
-y = math.gcd(x,2)
+y = x % 2
 
-if y ==2:
+if y ==0:
     print("even")
 else:
-    print("odd") """
+    print("odd")
 
 #notes
 """ def login(password):
