@@ -55,14 +55,14 @@ else:
 
 #Challenge 2
 
-x = int(input("enter a number: "))
+""" x = int(input("enter a number: "))
 y = x % 2
 
 if y ==0:
     print("even")
 else:
     print("odd")
-
+ """
 #notes
 """ def login(password):
     #if statement evaluates to true do next line
@@ -129,8 +129,16 @@ def canGamble(isRich, is21):
 
 """ x = int(input("enter a number: "))
 y = int(input("enter another number: "))
-z = 1
+
 for factors in range(1, min(x, y)+1):
     if x % factors ==0 and y % factors ==0:
         z = factors
 print(z) """
+
+""" def isFactor(x):
+    return True
+y = 777
+z = 939
+for i in range(1,z):
+    if z % i == True and y % i ==True:
+        print(i) """
